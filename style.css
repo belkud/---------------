@@ -222,7 +222,7 @@ img {
   font-weight: 600;
 }
 
-.drivers_menu, .support_menu, .licenses_menu {
+.drivers_menu, .support3_menu, .support_menu, .licenses_menu {
   display: flex;
   flex-direction: column;
   flex: 6;
@@ -230,7 +230,7 @@ img {
   padding-right: 20px;
   background-color: rgb(237, 237, 237);
 }
-.support_menu, .licenses_menu {
+.support3_menu, .support_menu, .map_menu, .licenses_menu {
   height: 1000px;
 }
 
