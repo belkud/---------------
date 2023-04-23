@@ -30,7 +30,7 @@ ol {
 
 li {
   list-style-type: none;
-    padding: 10px 20px;
+    padding: 10px 97px 10px 30px;
   }
   
   li:hover, footer>div:hover {
@@ -91,7 +91,7 @@ a:hover {
   box-shadow: 5px 5px 5px gray;
 }
 
-.menu3:hover, .main_menu_middle>div>img:hover  {
+.menu3:hover, .main_menu_middle>div>img:hover, .cars_menu>div>div>img:hover  {
   transition: 2s;
   transform: scale(1.05);
 }
@@ -216,13 +216,15 @@ img {
 .c {
   font-size: 1.2em;
   font-weight: 600;
+  margin-left: 20px;
+  margin-top: -8px;
 }
 .d {
   font-size: 2.9em;
   font-weight: 600;
 }
 
-.drivers_menu, .support3_menu, .support_menu, .licenses_menu {
+.drivers_menu, .cars_menu, .support3_menu, .support_menu, .licenses_menu {
   display: flex;
   flex-direction: column;
   flex: 6;
@@ -231,9 +233,26 @@ img {
   background-color: rgb(237, 237, 237);
 }
 .support3_menu, .support_menu, .map_menu, .licenses_menu {
-  height: 1000px;
+  height: 100vh;
 }
 
 .support_menu>div {
 margin-bottom: 1.5em;
+}
+
+.cars_menu>div>div>div {
+  margin-bottom: 0.5em;
+}
+.cars_menu>div>div {
+border-bottom: 2px solid lightgrey;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+.cars_menu>h3 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+footer {
+  margin-top: auto !important;
 }
